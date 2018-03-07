@@ -1116,9 +1116,6 @@ input:focus {
       margin-top: 20px; }
 
 @media screen and (width: 1200px) {
-  html {
-    font-size: 24px; }
-
   .header a {
     font-size: 24px; }
 
@@ -1128,8 +1125,8 @@ input:focus {
 
   .footer {
     width: 1200px;
-    position: fixed;
-    bottom: 0; }
+    /*   position: fixed;
+       bottom: 0;*/ }
     .footer p {
       line-height: 40px;
       font-size: 24px; }

@@ -1,0 +1,48 @@
+@import "common/mixins";
+@import "common";
+
+.content{
+  .tuwen-list{
+    .tuwen-item{
+       .picshow{
+          display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+          .pic-item{
+            width:200px;
+            margin-bottom: 30px;
+            img{
+              width:100%;
+              border-radius: 4px;
+            }
+            a{
+              display: block;
+              line-height: 36px;
+              text-align: center;
+              font-size: 14px;
+              background-color: #43261e;
+              color: #fff;
+              border-radius: 4px;
+            }
+          }
+       }
+    }
+  }
+
+  .productdetail{
+    h1{
+      text-align: center;
+    }
+    img{
+      width:750px;
+      margin: 0 105px; //(960-750)/2
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+

@@ -1,0 +1,55 @@
+@import "common/mixins";
+@import "common";
+
+
+h2{
+  line-height: 50px;
+  color:deepskyblue;
+}
+p{
+  line-height: 34px;
+  font-size: 18px;
+}
+.banner{
+ 
+}
+
+
+.productShow{
+  margin: 20px 0 40px;
+  .title{
+    height: 117px;
+    background: url(../images/productshow.png) no-repeat center;
+  }
+}
+
+a.more{
+    width: 58px;
+    height: 58px;
+    line-height: 58px;
+    text-align: center;
+    display: block;
+    background-color: #333333;
+    margin: 10px auto;
+    font-size: 14px;
+    color: #eee;
+    border-radius: 50%;
+}
+
+.zizhi{
+  margin-bottom: 50px;
+  .title{
+    height: 117px;
+    background: url(../images/zizhi.png) no-repeat center;
+  }
+  img{
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+

@@ -1,0 +1,35 @@
+@import "common/mixins";
+@import "common";
+
+.content{
+  .tuwen-list{
+    .tuwen-item{
+      h3{
+        color: rgb(0, 112, 192);
+        font-family: impact,chicago;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 46px;
+      }
+      p{
+        line-height: 32px;
+        font-size: 18px;
+      }
+      &.item1{
+        p{
+          text-indent: 2em;
+        }
+      }
+      &.item2{
+
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+

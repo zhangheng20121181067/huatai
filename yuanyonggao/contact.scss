@@ -1,0 +1,21 @@
+@import "common/mixins";
+@import "common";
+
+.content{
+  .tuwen-list{
+    .tuwen-item{
+       p{
+         line-height: 32px;
+         font-weight: 600;
+
+       }
+    }
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+
+}
+
+

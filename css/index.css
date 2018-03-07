@@ -1116,9 +1116,6 @@ input:focus {
       margin-top: 20px; }
 
 @media screen and (width: 1200px) {
-  html {
-    font-size: 24px; }
-
   .header a {
     font-size: 24px; }
 
@@ -1128,8 +1125,8 @@ input:focus {
 
   .footer {
     width: 1200px;
-    position: fixed;
-    bottom: 0; }
+    /*   position: fixed;
+       bottom: 0;*/ }
     .footer p {
       line-height: 40px;
       font-size: 24px; }
@@ -1157,5 +1154,26 @@ p {
   .productShow .title {
     height: 117px;
     background: url(../images/productshow.png) no-repeat center; }
+
+a.more {
+  width: 58px;
+  height: 58px;
+  line-height: 58px;
+  text-align: center;
+  display: block;
+  background-color: #333333;
+  margin: 10px auto;
+  font-size: 14px;
+  color: #eee;
+  border-radius: 50%; }
+
+.zizhi {
+  margin-bottom: 50px; }
+  .zizhi .title {
+    height: 117px;
+    background: url(../images/zizhi.png) no-repeat center; }
+  .zizhi img {
+    display: block;
+    margin: 0 auto; }
 
 /*# sourceMappingURL=index.css.map */

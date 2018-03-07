@@ -1141,16 +1141,5 @@ input:focus {
     height: 60px; }
     .nav ul li a {
       line-height: 60px; } }
-.content .tuwen-list .tuwen-item h3 {
-  color: #0070c0;
-  font-family: impact,chicago;
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 46px; }
-.content .tuwen-list .tuwen-item p {
-  line-height: 32px;
-  font-size: 18px; }
-.content .tuwen-list .tuwen-item.item1 p {
-  text-indent: 2em; }
 
-/*# sourceMappingURL=about.css.map */
+/*# sourceMappingURL=common.css.map */
