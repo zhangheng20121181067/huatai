@@ -22,3 +22,5 @@ var banner='<div class="banner"><div class="swiper-container swiperContainer1"><
 var footer='<div class="footer"><p>华肽生物科技有限公司   © 华肽生物科技有限公司享 版权所有</p>' +
     '<p>地址：武汉市高新大道666号光谷生物城C5栋北楼207</p>' +
     '<p>电话：400-611-1098 QQ:1811572317</p></div>'; /*<p>E_mail：459650878@qq.com 3380590158@qq.com</p>*/
+
+

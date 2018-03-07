@@ -1115,10 +1115,21 @@ input:focus {
     .main.main-common .content .tuwen-list .tuwen-item .tuwen-item-list {
       margin-top: 20px; }
 
-@media screen and (min-width: 1200px) {
+@media screen and (width: 1200px) {
+  html {
+    font-size: 24px; }
+
   .container {
     width: 98%;
-    margin: 0 1%; } }
+    margin: 0 1%; }
+
+  .footer {
+    width: 1200px;
+    position: fixed;
+    bottom: 0; }
+    .footer p {
+      line-height: 40px;
+      font-size: 24px; } }
 h2 {
   line-height: 50px;
   color: deepskyblue; }
