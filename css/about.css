@@ -1134,9 +1134,11 @@ input:focus {
       line-height: 40px;
       font-size: 24px; }
 
-  .main.main-common .aside ul li {
-    line-height: 60px;
-    font-size: 24px; }
+  .main.main-common {
+    padding-bottom: 200px; }
+    .main.main-common .aside ul li {
+      line-height: 60px;
+      font-size: 24px; }
 
   .nav {
     height: 60px; }
