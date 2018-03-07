@@ -1128,7 +1128,7 @@ input:focus {
 
   .footer {
     width: 1200px;
-    position: fixed;
+    position: relative;
     bottom: 0; }
     .footer p {
       line-height: 40px;
