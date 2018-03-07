@@ -1124,18 +1124,14 @@ input:focus {
     margin: 0 1%; }
 
   .footer {
-    width: 1200px;
-    /*   position: fixed;
-       bottom: 0;*/ }
+    width: 1200px; }
     .footer p {
       line-height: 40px;
       font-size: 24px; }
 
-  .main.main-common {
-    padding-bottom: 200px; }
-    .main.main-common .aside ul li {
-      line-height: 60px;
-      font-size: 24px; }
+  .main.main-common .aside ul li {
+    line-height: 60px;
+    font-size: 24px; }
 
   .nav {
     height: 60px; }
@@ -1175,5 +1171,18 @@ a.more {
   .zizhi img {
     display: block;
     margin: 0 auto; }
+
+@media screen and (min-width: 1200px) {
+  a.more {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    margin: 30px auto;
+    font-size: 18px;
+    color: #eee;
+    border-radius: 50%; }
+
+  .zizhi {
+    margin-bottom: 100px; } }
 
 /*# sourceMappingURL=index.css.map */
